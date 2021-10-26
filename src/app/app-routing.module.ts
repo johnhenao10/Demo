@@ -19,10 +19,6 @@ const routes: Routes = [
     path: 'pagina-info',
     loadChildren: () => import('./pagina-info/pagina-info.module').then( m => m.PaginaInfoPageModule)
   },
-  {
-    path: 'alert',
-    loadChildren: () => import('./alert/alert.module').then( m => m.AlertPageModule)
-  },
 ];
 
 @NgModule({
